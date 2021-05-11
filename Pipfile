@@ -1,0 +1,27 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = "*"
+pytest-cov = "*"
+
+
+[packages]
+pandas = "*"
+environs = "*"
+gitpython = "*"
+matplotlib = "*"
+sklearn = "*"
+streamlit = "*"
+tensorflow = "2.2.0"
+spektral = "1.0"
+dgl = "*"
+numpy = "*"
+scipy = "*"
+networkx = "*"
+ogb = "*"
+
+[requires]
+python_version = "3.8"
